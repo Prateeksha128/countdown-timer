@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body{
+    background-image: url(./kristaps-ungurs-YWNUsImLHXk-unsplash.jpg);
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   min-height:min-content;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+      font-size: 1rem;
+      font-weight: bold;
+      margin-top:  0rem; 
+      font-family:cursive;
+    
+}
+h2{
+      font-weight: bold;
+      margin-top:  0.3rem; ;
+      font-family:cursive;
+}
+
+.glow {
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                   0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+    }
+    to {
+      text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+                   0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+.countdown-container{
+    display: flex;
+}
+
+.big-text{
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countem {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.countem span{
+    font-size: 1.3rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .glow {margin-top: 0%;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;}
+
+    .big-text{font-size: 20px;
+      font-weight: bold;
+      line-height: 1;
+      margin: 0 1rem;
+      margin-bottom: 5px;
+    }
+
+    .countem {
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 100px;
+  }
+  
+  .countem span{
+      font-size: 10px;
+      margin-top: 0;
+  }
+  body{
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+     margin: 0;
+     min-height:600px;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 605px) {
+  .glow {margin-top: 2%;
+    font-size: 60px;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;}
+
+    .big-text{font-size: 45px;
+      font-weight: bold;
+      line-height: 1;
+      margin: 0 3rem;
+      margin-bottom: 5px;
+    }
+
+    .countem {
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 150px;
+  }
+  
+  .countem span{
+      font-size: 20px;
+      margin-top: 0;
+  }
+  body{
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+     margin: 4px;
+     min-height:min-content;
+  }
+
+
+}
+
